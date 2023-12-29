@@ -74,7 +74,14 @@ const SignUp = ({ onSignInClick }) => {
               required=""
             />
           </div>
-          
+
+          <div class="flex items-start mb-5">
+            <div class="flex items-center h-5">
+              <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50" required/>
+            </div>
+            <label for="terms" class="ms-2 text-sm font-medium text-gray-900">I agree with the <a href="#" class="text-blue-600 hover:underline">terms and conditions</a></label>
+          </div>
+
           <button
             type="submit"
             className="w-full text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center"

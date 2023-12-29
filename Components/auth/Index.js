@@ -33,7 +33,7 @@ const Index = () => {
                         <LuMilk size={40}/>
                     </div>
                     <div className='ml-5'>
-                        <h1>I am here to be <b className='hover:text-blue-600'>Comsumer</b></h1>
+                        <h1>I am here to be <b className='hover:text-blue-600'>Consumer</b></h1>
                         <p className='text-sm'>To get fresh Milk</p>
                     </div>
                 </div>
